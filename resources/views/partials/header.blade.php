@@ -7,5 +7,10 @@
         <li>
             <a href="/">Home</a>
         </li>
+        <li>
+
+            <a href="{{route('comics.create')}}">Add comic</a>
+        </li>
+
     </ul>
 </header>
