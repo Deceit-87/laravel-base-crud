@@ -14,11 +14,11 @@ class CreateComicsTable extends Migration
     public function up()
     {
         Schema::create('comics', function (Blueprint $table) {
-            $table->id();
+            $table->id()->autoIncrement();
             $table->string('title',100);
             $table->text('description')->nullable();
             $table->string('thumb');
-            $table->float('price',4,2);
+            $table->float('price',8,2);
             $table->string('series',100);
             $table->date('sale_date');
             $table->string('type');
