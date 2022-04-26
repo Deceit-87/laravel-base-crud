@@ -21,6 +21,9 @@
     <td>
         {{$comic->type}}
     </td>
+    <td>
+       <a href="{{route('comics.show',$comic->id ) }}">visualizza</a>
+    </td>
 </tr>
     
 @endforeach
