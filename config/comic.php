@@ -8,7 +8,7 @@ return [
         "price" => "9.99",
         "series" => "Action Comics",
         "sale_date" => "2018-10-02",
-        "type" => "comic book"
+        "type" => "comic book" 
     ],
     [
         "title" => "American Vampire 1976 #1",
