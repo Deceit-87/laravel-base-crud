@@ -16,8 +16,8 @@
         <div>
     
             <label for="description">Descrizione</label>
-            <textarea  name="description" id="description">
-            </textarea>
+            <textarea  name="description" id="description" value="{{old('description')}}">dskdhshgdssdkjdsjkdjk</textarea>
+        
     
         </div>
         <div>
