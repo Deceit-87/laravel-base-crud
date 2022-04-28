@@ -1,5 +1,5 @@
-<header>
-    <ul>
+<header class="container">
+    <ul class="d-flex justify-content-between">
         <li>
 
             <a href="{{route('comics.index')}}">all Comics</a>

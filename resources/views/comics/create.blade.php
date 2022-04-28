@@ -2,7 +2,7 @@
 
 @section('content')
 
-<main>
+<main class="container">
 
     <form action="{{route('comics.store')}}" method="POST">
         @csrf
@@ -16,7 +16,7 @@
         <div>
     
             <label for="description">Descrizione</label>
-            <textarea  name="description" id="description" value="{{old('description')}}">dskdhshgdssdkjdsjkdjk</textarea>
+            <textarea  name="description" id="description" value="{{old('description')}}" placeholder="inserisci qui la descrizione..."></textarea>
         
     
         </div>

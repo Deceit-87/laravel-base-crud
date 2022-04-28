@@ -1,6 +1,6 @@
 <?php $__env->startSection('content'); ?>
 
-<main>
+<main class="container">
 
     <form action="<?php echo e(route('comics.store')); ?>" method="POST">
         <?php echo csrf_field(); ?>
@@ -14,7 +14,7 @@
         <div>
     
             <label for="description">Descrizione</label>
-            <textarea  name="description" id="description" value="<?php echo e(old('description')); ?>">dskdhshgdssdkjdsjkdjk</textarea>
+            <textarea  name="description" id="description" value="<?php echo e(old('description')); ?>" placeholder="inserisci qui la descrizione..."></textarea>
         
     
         </div>

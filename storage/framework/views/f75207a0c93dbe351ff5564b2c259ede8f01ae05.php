@@ -1,5 +1,5 @@
-<header>
-    <ul>
+<header class="container">
+    <ul class="d-flex justify-content-between">
         <li>
 
             <a href="<?php echo e(route('comics.index')); ?>">all Comics</a>
