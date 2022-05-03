@@ -7,7 +7,7 @@
             <div>
 
                 <label for="title">Titolo</label>
-                <input class="<?php $__errorArgs = ['title'];
+                <input  class=" form-control <?php $__errorArgs = ['title'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -31,7 +31,7 @@ unset($__errorArgs, $__bag); ?>
             <div>
 
                 <label for="description">Descrizione</label>
-                <textarea name="description" id="description" value="<?php echo e(old('description')); ?>"
+                <textarea class="form-control"name="description" id="description" value="<?php echo e(old('description')); ?>"
                     placeholder="inserisci qui la descrizione..."></textarea>
 
 
@@ -39,13 +39,13 @@ unset($__errorArgs, $__bag); ?>
             <div>
 
                 <label for="thumb">Ulr img</label>
-                <input type="text" name="thumb" id="thumb" value="<?php echo e(old('thumb')); ?>" placeholder="url">
+                <input  class="form-control"type="text" name="thumb" id="thumb" value="<?php echo e(old('thumb')); ?>" placeholder="url">
 
             </div>
             <div>
 
                 <label for="price">Prezzo</label>
-                <input class="<?php $__errorArgs = ['price'];
+                <input class="form-control <?php $__errorArgs = ['price'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
@@ -69,7 +69,7 @@ unset($__errorArgs, $__bag); ?>
             <div>
 
                 <label for="series">Serie</label>
-                <input class="<?php $__errorArgs = ['series'];
+                <input class="form-control <?php $__errorArgs = ['series'];
 $__bag = $errors->getBag($__errorArgs[1] ?? 'default');
 if ($__bag->has($__errorArgs[0])) :
 if (isset($message)) { $__messageOriginal = $message; }
